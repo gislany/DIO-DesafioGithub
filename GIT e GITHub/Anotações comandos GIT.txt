@@ -1,0 +1,38 @@
+Clonar repositório: git clone nome do repositório
+Criar uma branch: git branch nome da branch
+Ir para a branch: git checkout nome da branch
+ comando para verificar se tudo o que a main tem, tem no clone: git pull origin main
+Para salvar os arquivos usa git add .
+Para enviar os arquivos: git commit -m""
+para subir no git: git push origin nome da branch que esta trabalhando
+git pull para buscar informação
+para ir para uma branch: git checkout <nome da branch>
+
+SEMPRE FAZER: git status  (conferir antes de prosseguir)
+
+PRIMEIRA COISA A FAZER QND LOGA: Atualizar a branch que esta trabalhando: it pull origin <nome_da_branch>
+
+
+DENTRO DO JSON - parametros que estiverem entre chaves, é um objeto
+
+LIMITE PARA COMMIT NO GIT: Aproximadamente 500mb
+
+
+PASSO A PASSO PRA SALVAR O COMMIT:
+git add .
+git commit -m "onde esta trabalhando"
+git status
+git push origin "branch  esta usando"
+git status
+
+Consertar um erro igual em todos: ex: "main" para 'main' - control F2 e corrige
+Ou seleciona, clica na lupa, muda e replace em todos
+
+Comando para abrir uma interface para poder executar os testes no playwrite
+npx playwright test --ui
+
+Comando para criar teste: test("nome_do_teste", async (local onde a função sera usada)=>{
+
+
+
+
